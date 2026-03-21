@@ -15,12 +15,13 @@
   },
   "license": "MIT",
   "author": "paipCas",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/challenge.js"
   },
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "xmlhttprequest": "^1.8.0"
   }
 }
